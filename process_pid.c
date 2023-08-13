@@ -21,6 +21,10 @@ int main(void)
  * pid - function returning the pid of the process
  *
  * Return: the pid of process from system call getpid().
+ *
+ * Description - getpid() is a system call function in the unix system
+ *		defined in the <unistd.h> header file. It returns the pid of
+ *		the running process whove value is of type 'signed int'
  **/
 
 signed int pid(void)
